@@ -1,0 +1,97 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 36px;
+    color: #d35400;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 24px;
+    color: #e74c3c;
+    margin-top: 30px;
+    text-align: center;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Description Section */
+p {
+    font-size: 18px;
+    text-align: justify;
+    margin: 0 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Ingredients and Steps Lists */
+ul, ol {
+    font-size: 18px;
+    padding-left: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+/* List Items */
+li {
+    margin-bottom: 10px;
+}
+
+/* Home Link */
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2980b9;
+    color: white;
+    padding: 12px 20px;
+    margin: 30px auto;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #3498db;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+    img {
+        width: 80%;
+    }
+}
